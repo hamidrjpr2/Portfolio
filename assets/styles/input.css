@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(../fonts/WorkSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url(../fonts/SpaceGrotesk.ttf);
+}
+
+/* .show {
+    transform: translateX(0);
+    opacity: 1;
+} */
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+span:not(:nth-last-of-type(2))
+/* .lspart > a::before {
+    content: '';
+    transform-origin: right;
+    transform: scaleX(0);
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(260deg,rgba(42,20,84,1)0%,rgba(135,80,247,1)100%);
+    position: absolute;
+    transition: transform .3s;
+}
+
+.lspart:hover > a::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.lspart2 > a::before {
+    transform-origin: left;
+    transform: scaleX(1);
+} */
